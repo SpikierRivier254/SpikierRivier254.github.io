@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="My Name Is Gabriel, I Create This Page So You Can Know Me And Learn About My Hablities And Ambitions On My Carrer">
+    <meta name="author" content="Gabriel Dirschnabel">
+    <meta name="keywords" content="Gabriel Dirschnabel , Job , Carrer , Employment , IFC , Student , Programming">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="icon" href="Images/Icon.ico">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="Header.css">
+    <script src="contact.jsS"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="send_email.js"></script>
+    <title> Gabriel Dirschnabel </title>
+</head>
+<body>
+    <header class="Navbar">
+        <a class="h1" href="index.html">Gabriel Dirschnabel</a>
+        <ul class="Nav">
+            <li><a href="aboutme.html">ABOUT ME</a></li>
+            <li><a href="portifolio.html">PORTIFOLIO</a></li>
+            <li><a href="school.html">SCHOOL</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>        
+    </header>
+    <div class="Mainpageam">
+        <div class="input_center">
+            <form method="post">
+                <label class="input_font" for="Name">Name</label><br>
+                <input id="Name" type="text" name="Name" placeholder="Insert your name..."><br><br>
+                <label class="input_font" for="Email_Adress">Email</label><br>
+                <input id="Email_Adress" type="text" name="Email" placeholder="Insert your email..."><br><br>
+                <label class="input_font" for="Name">Message</label><br>
+                <input id="Message" type="text" name="Message" placeholder="Insert your message...">
+                <input type="button" value="Submit" onclick="Send_Email()"> 
+            </form>
+        </div>
+        <div class="Contacts">
+            <a href="mailto:gabitodirs@gmail.com" class="Text">
+                <p> gabitodirs@gmail.com</p>
+                <img src="Images/EmailIcon.png" width="9%">
+            </a>
+            <a href="https://www.instagram.com/gabrieldirschnabel/" class="Text">
+                <p href="#"> @gabrieldirschnabel</p>
+                <img src="Images/InstagramIcon.png" width="9%">
+            </a>
+            <a href="https://wa.me/5547992671753" class="Text">
+                <p href="#"> +55 (47)99267-1753</p>
+                <img src="Images/WhatssapIcon.png" width="9%">
+            </a>
+        </div>
+    </div><br><br> 
+</body>
+</html>

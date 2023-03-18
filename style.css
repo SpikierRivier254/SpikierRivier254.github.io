@@ -1,0 +1,28 @@
+.Main{
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+.Image{
+    box-shadow: 10px 10px 25px #1a1a1a;
+    border-radius: 2%;
+}
+.Name {
+    font-size: 300%;
+    padding: 2%;
+    font-family: "Raleway";
+    color: #202020;
+}
+.Basic{
+    display: inline-block;
+    padding: 5% 4%;
+    width: 100%;
+}
+.Basic p{
+    font-size: 200%;
+    padding: 4%;
+    font-family: "Raleway";
+    color: #202020;
+}
+
